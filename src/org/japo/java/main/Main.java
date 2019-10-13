@@ -31,6 +31,6 @@ public final class Main {
         // Generar dato
         double altura = RND.nextDouble() * (2.50 - 0.50) + 0.50;
 
-        System.out.printf(Locale.ENGLISH, "Aforo actual del local ....: %.2f metros.%n", altura);
+        System.out.printf(Locale.ENGLISH, "Altura aleatoria ..........: %.2f metros.%n", altura);
     }
 }
